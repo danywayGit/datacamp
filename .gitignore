@@ -1,0 +1,15 @@
+# exclude all files in folders name ending with files
+*files/*
+
+# exclude venv folder
+venv-datacamp/*
+
+__pycache__/*
+
+.vscode/*
+
+# exclude all csv files
+*.csv
+
+# exclude GetBinanceHistoricalData.py
+GetBinanceHistoricalData.py
